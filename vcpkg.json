@@ -1,0 +1,10 @@
+{
+  "name": "boost-beast-deadlock",
+  "description": "",
+  "version-string": "0.0.0",
+  "dependencies": [
+    "boost-asio",
+    "boost-beast",
+    "openssl"
+  ]
+}

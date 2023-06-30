@@ -1,0 +1,152 @@
+/home/boas/git/boost-beast-deadlock/cmake-build-debug/boost_beast_deadlock
+@asio|1688107225.530879|0^1|in 'async_connect' (/home/boas/git/boost-beast-deadlock/cmake-build-debug/vcpkg_installed/x64-linux/:371)
+@asio|1688107225.530879|0*1|socket@0x7fffb4267a28.async_connect
+@asio|1688107225.541143|.1|non_blocking_connect,ec=system:0
+@asio|1688107225.541160|>1|ec=system:0
+@asio|1688107225.541180|<1|
+@asio|1688107225.541408|0^2|in 'basic_stream::async_write_some' (/home/boas/git/boost-beast-deadlock/cmake-build-debug/vcpkg_installed/x64-linux/:395)
+@asio|1688107225.541408|0^2|called from 'async_write' (/home/boas/git/boost-beast-deadlock/cmake-build-debug/vcpkg_installed/x64-linux/:344)
+@asio|1688107225.541408|0^2|called from 'ssl::stream<>::async_handshake' (/home/boas/git/boost-beast-deadlock/cmake-build-debug/vcpkg_installed/x64-linux/:209)
+@asio|1688107225.541408|0*2|socket@0x55ddb122e5b8.async_send
+@asio|1688107225.541440|.2|non_blocking_send,ec=system:0,bytes_transferred=188
+@asio|1688107225.541513|>2|ec=system:0,bytes_transferred=188
+@asio|1688107225.541554|2^3|in 'basic_stream::async_read_some' (/home/boas/git/boost-beast-deadlock/cmake-build-debug/vcpkg_installed/x64-linux/:395)
+@asio|1688107225.541554|2^3|called from 'ssl::stream<>::async_handshake' (/home/boas/git/boost-beast-deadlock/cmake-build-debug/vcpkg_installed/x64-linux/:176)
+@asio|1688107225.541554|2*3|socket@0x55ddb122e5b8.async_receive
+@asio|1688107225.541563|.3|non_blocking_recv,ec=system:11,bytes_transferred=0
+@asio|1688107225.541567|<2|
+@asio|1688107225.736035|.3|non_blocking_recv,ec=system:0,bytes_transferred=2720
+@asio|1688107225.736071|>3|ec=system:0,bytes_transferred=2720
+@asio|1688107225.736164|3^4|in 'basic_stream::async_read_some' (/home/boas/git/boost-beast-deadlock/cmake-build-debug/vcpkg_installed/x64-linux/:395)
+@asio|1688107225.736164|3^4|called from 'ssl::stream<>::async_handshake' (/home/boas/git/boost-beast-deadlock/cmake-build-debug/vcpkg_installed/x64-linux/:176)
+@asio|1688107225.736164|3*4|socket@0x55ddb122e5b8.async_receive
+@asio|1688107225.736181|.4|non_blocking_recv,ec=system:11,bytes_transferred=0
+@asio|1688107225.736187|<3|
+@asio|1688107225.748210|.4|non_blocking_recv,ec=system:0,bytes_transferred=803
+@asio|1688107225.748244|>4|ec=system:0,bytes_transferred=803
+@asio|1688107225.752961|4^5|in 'basic_stream::async_write_some' (/home/boas/git/boost-beast-deadlock/cmake-build-debug/vcpkg_installed/x64-linux/:395)
+@asio|1688107225.752961|4^5|called from 'async_write' (/home/boas/git/boost-beast-deadlock/cmake-build-debug/vcpkg_installed/x64-linux/:344)
+@asio|1688107225.752961|4^5|called from 'ssl::stream<>::async_handshake' (/home/boas/git/boost-beast-deadlock/cmake-build-debug/vcpkg_installed/x64-linux/:209)
+@asio|1688107225.752961|4*5|socket@0x55ddb122e5b8.async_send
+@asio|1688107225.753025|.5|non_blocking_send,ec=system:0,bytes_transferred=126
+@asio|1688107225.753036|<4|
+@asio|1688107225.753045|>5|ec=system:0,bytes_transferred=126
+@asio|1688107225.753068|5^6|in 'basic_stream::async_read_some' (/home/boas/git/boost-beast-deadlock/cmake-build-debug/vcpkg_installed/x64-linux/:395)
+@asio|1688107225.753068|5^6|called from 'ssl::stream<>::async_handshake' (/home/boas/git/boost-beast-deadlock/cmake-build-debug/vcpkg_installed/x64-linux/:176)
+@asio|1688107225.753068|5*6|socket@0x55ddb122e5b8.async_receive
+@asio|1688107225.753083|.6|non_blocking_recv,ec=system:11,bytes_transferred=0
+@asio|1688107225.753089|<5|
+@asio|1688107225.856975|.6|non_blocking_recv,ec=system:0,bytes_transferred=226
+@asio|1688107225.857034|>6|ec=system:0,bytes_transferred=226
+@asio|1688107225.857263|<6|
+Successfully connected
+@asio|1688107226.857741|0|socket@0x55ddb122e5b8.close
+@asio|1688107226.857877|0|resolver@0x7fffb42679d8.cancel
+@asio|1688107226.860438|0^7|in 'async_connect' (/home/boas/git/boost-beast-deadlock/cmake-build-debug/vcpkg_installed/x64-linux/:371)
+@asio|1688107226.860438|0*7|socket@0x7fffb4267a28.async_connect
+@asio|1688107226.872867|.7|non_blocking_connect,ec=system:0
+@asio|1688107226.872901|>7|ec=system:0
+@asio|1688107226.872931|<7|
+@asio|1688107226.873286|0^8|in 'basic_stream::async_write_some' (/home/boas/git/boost-beast-deadlock/cmake-build-debug/vcpkg_installed/x64-linux/:395)
+@asio|1688107226.873286|0^8|called from 'async_write' (/home/boas/git/boost-beast-deadlock/cmake-build-debug/vcpkg_installed/x64-linux/:344)
+@asio|1688107226.873286|0^8|called from 'ssl::stream<>::async_handshake' (/home/boas/git/boost-beast-deadlock/cmake-build-debug/vcpkg_installed/x64-linux/:209)
+@asio|1688107226.873286|0*8|socket@0x55ddb122e5b8.async_send
+@asio|1688107226.873379|.8|non_blocking_send,ec=system:0,bytes_transferred=188
+@asio|1688107226.873496|>8|ec=system:0,bytes_transferred=188
+@asio|1688107226.873596|8^9|in 'basic_stream::async_read_some' (/home/boas/git/boost-beast-deadlock/cmake-build-debug/vcpkg_installed/x64-linux/:395)
+@asio|1688107226.873596|8^9|called from 'ssl::stream<>::async_handshake' (/home/boas/git/boost-beast-deadlock/cmake-build-debug/vcpkg_installed/x64-linux/:176)
+@asio|1688107226.873596|8*9|socket@0x55ddb122e5b8.async_receive
+@asio|1688107226.873631|.9|non_blocking_recv,ec=system:11,bytes_transferred=0
+@asio|1688107226.873643|<8|
+@asio|1688107227.080803|.9|non_blocking_recv,ec=system:0,bytes_transferred=2720
+@asio|1688107227.080860|>9|ec=system:0,bytes_transferred=2720
+@asio|1688107227.080976|9^10|in 'basic_stream::async_read_some' (/home/boas/git/boost-beast-deadlock/cmake-build-debug/vcpkg_installed/x64-linux/:395)
+@asio|1688107227.080976|9^10|called from 'ssl::stream<>::async_handshake' (/home/boas/git/boost-beast-deadlock/cmake-build-debug/vcpkg_installed/x64-linux/:176)
+@asio|1688107227.080976|9*10|socket@0x55ddb122e5b8.async_receive
+@asio|1688107227.081008|.10|non_blocking_recv,ec=system:11,bytes_transferred=0
+@asio|1688107227.081019|<9|
+@asio|1688107227.095276|.10|non_blocking_recv,ec=system:0,bytes_transferred=803
+@asio|1688107227.095335|>10|ec=system:0,bytes_transferred=803
+@asio|1688107227.100155|10^11|in 'basic_stream::async_write_some' (/home/boas/git/boost-beast-deadlock/cmake-build-debug/vcpkg_installed/x64-linux/:395)
+@asio|1688107227.100155|10^11|called from 'async_write' (/home/boas/git/boost-beast-deadlock/cmake-build-debug/vcpkg_installed/x64-linux/:344)
+@asio|1688107227.100155|10^11|called from 'ssl::stream<>::async_handshake' (/home/boas/git/boost-beast-deadlock/cmake-build-debug/vcpkg_installed/x64-linux/:209)
+@asio|1688107227.100155|10*11|socket@0x55ddb122e5b8.async_send
+@asio|1688107227.100248|.11|non_blocking_send,ec=system:0,bytes_transferred=126
+@asio|1688107227.100266|<10|
+@asio|1688107227.100282|>11|ec=system:0,bytes_transferred=126
+@asio|1688107227.100317|11^12|in 'basic_stream::async_read_some' (/home/boas/git/boost-beast-deadlock/cmake-build-debug/vcpkg_installed/x64-linux/:395)
+@asio|1688107227.100317|11^12|called from 'ssl::stream<>::async_handshake' (/home/boas/git/boost-beast-deadlock/cmake-build-debug/vcpkg_installed/x64-linux/:176)
+@asio|1688107227.100317|11*12|socket@0x55ddb122e5b8.async_receive
+@asio|1688107227.100341|.12|non_blocking_recv,ec=system:11,bytes_transferred=0
+@asio|1688107227.100364|<11|
+@asio|1688107227.205882|.12|non_blocking_recv,ec=system:0,bytes_transferred=226
+@asio|1688107227.205902|>12|ec=system:0,bytes_transferred=226
+@asio|1688107227.205981|<12|
+Successfully connected
+@asio|1688107228.206373|0|socket@0x55ddb122e5b8.close
+@asio|1688107228.206508|0|resolver@0x7fffb42679d8.cancel
+@asio|1688107228.208748|0^13|in 'async_connect' (/home/boas/git/boost-beast-deadlock/cmake-build-debug/vcpkg_installed/x64-linux/:371)
+@asio|1688107228.208748|0*13|socket@0x7fffb4267a28.async_connect
+@asio|1688107228.221061|.13|non_blocking_connect,ec=system:0
+@asio|1688107228.221076|>13|ec=system:0
+@asio|1688107228.221089|<13|
+@asio|1688107228.221278|0^14|in 'basic_stream::async_write_some' (/home/boas/git/boost-beast-deadlock/cmake-build-debug/vcpkg_installed/x64-linux/:395)
+@asio|1688107228.221278|0^14|called from 'async_write' (/home/boas/git/boost-beast-deadlock/cmake-build-debug/vcpkg_installed/x64-linux/:344)
+@asio|1688107228.221278|0^14|called from 'ssl::stream<>::async_handshake' (/home/boas/git/boost-beast-deadlock/cmake-build-debug/vcpkg_installed/x64-linux/:209)
+@asio|1688107228.221278|0*14|socket@0x55ddb122e5b8.async_send
+@asio|1688107228.221308|.14|non_blocking_send,ec=system:0,bytes_transferred=188
+@asio|1688107228.221376|>14|ec=system:0,bytes_transferred=188
+@asio|1688107228.221419|14^15|in 'basic_stream::async_read_some' (/home/boas/git/boost-beast-deadlock/cmake-build-debug/vcpkg_installed/x64-linux/:395)
+@asio|1688107228.221419|14^15|called from 'ssl::stream<>::async_handshake' (/home/boas/git/boost-beast-deadlock/cmake-build-debug/vcpkg_installed/x64-linux/:176)
+@asio|1688107228.221419|14*15|socket@0x55ddb122e5b8.async_receive
+@asio|1688107228.221431|.15|non_blocking_recv,ec=system:11,bytes_transferred=0
+@asio|1688107228.221436|<14|
+@asio|1688107228.421250|.15|non_blocking_recv,ec=system:0,bytes_transferred=2720
+@asio|1688107228.421314|>15|ec=system:0,bytes_transferred=2720
+@asio|1688107228.421462|15^16|in 'basic_stream::async_read_some' (/home/boas/git/boost-beast-deadlock/cmake-build-debug/vcpkg_installed/x64-linux/:395)
+@asio|1688107228.421462|15^16|called from 'ssl::stream<>::async_handshake' (/home/boas/git/boost-beast-deadlock/cmake-build-debug/vcpkg_installed/x64-linux/:176)
+@asio|1688107228.421462|15*16|socket@0x55ddb122e5b8.async_receive
+@asio|1688107228.421499|.16|non_blocking_recv,ec=system:11,bytes_transferred=0
+@asio|1688107228.421509|<15|
+@asio|1688107228.433417|.16|non_blocking_recv,ec=system:0,bytes_transferred=803
+@asio|1688107228.433473|>16|ec=system:0,bytes_transferred=803
+@asio|1688107228.438035|16^17|in 'basic_stream::async_write_some' (/home/boas/git/boost-beast-deadlock/cmake-build-debug/vcpkg_installed/x64-linux/:395)
+@asio|1688107228.438035|16^17|called from 'async_write' (/home/boas/git/boost-beast-deadlock/cmake-build-debug/vcpkg_installed/x64-linux/:344)
+@asio|1688107228.438035|16^17|called from 'ssl::stream<>::async_handshake' (/home/boas/git/boost-beast-deadlock/cmake-build-debug/vcpkg_installed/x64-linux/:209)
+@asio|1688107228.438035|16*17|socket@0x55ddb122e5b8.async_send
+@asio|1688107228.438114|.17|non_blocking_send,ec=system:0,bytes_transferred=126
+@asio|1688107228.438135|<16|
+@asio|1688107228.438154|>17|ec=system:0,bytes_transferred=126
+@asio|1688107228.438192|17^18|in 'basic_stream::async_read_some' (/home/boas/git/boost-beast-deadlock/cmake-build-debug/vcpkg_installed/x64-linux/:395)
+@asio|1688107228.438192|17^18|called from 'ssl::stream<>::async_handshake' (/home/boas/git/boost-beast-deadlock/cmake-build-debug/vcpkg_installed/x64-linux/:176)
+@asio|1688107228.438192|17*18|socket@0x55ddb122e5b8.async_receive
+@asio|1688107228.438213|.18|non_blocking_recv,ec=system:11,bytes_transferred=0
+@asio|1688107228.438223|<17|
+@asio|1688107228.543156|.18|non_blocking_recv,ec=system:0,bytes_transferred=226
+@asio|1688107228.543199|>18|ec=system:0,bytes_transferred=226
+@asio|1688107228.543361|<18|
+Successfully connected
+@asio|1688107229.543867|0|socket@0x55ddb122e5b8.close
+@asio|1688107229.544017|0|resolver@0x7fffb42679d8.cancel
+@asio|1688107229.546469|0^19|in 'async_connect' (/home/boas/git/boost-beast-deadlock/cmake-build-debug/vcpkg_installed/x64-linux/:371)
+@asio|1688107229.546469|0*19|socket@0x7fffb4267a28.async_connect
+@asio|1688107293.708383|.19|non_blocking_connect,ec=system:0
+@asio|1688107293.708439|>19|ec=system:0
+@asio|1688107293.708478|<19|
+@asio|1688107293.708875|0^20|in 'basic_stream::async_write_some' (/home/boas/git/boost-beast-deadlock/cmake-build-debug/vcpkg_installed/x64-linux/:395)
+@asio|1688107293.708875|0^20|called from 'async_write' (/home/boas/git/boost-beast-deadlock/cmake-build-debug/vcpkg_installed/x64-linux/:344)
+@asio|1688107293.708875|0^20|called from 'ssl::stream<>::async_handshake' (/home/boas/git/boost-beast-deadlock/cmake-build-debug/vcpkg_installed/x64-linux/:209)
+@asio|1688107293.708875|0*20|socket@0x55ddb122e5b8.async_send
+@asio|1688107293.708967|.20|non_blocking_send,ec=system:0,bytes_transferred=188
+@asio|1688107293.709085|>20|ec=system:0,bytes_transferred=188
+@asio|1688107293.709204|20^21|in 'basic_stream::async_read_some' (/home/boas/git/boost-beast-deadlock/cmake-build-debug/vcpkg_installed/x64-linux/:395)
+@asio|1688107293.709204|20^21|called from 'ssl::stream<>::async_handshake' (/home/boas/git/boost-beast-deadlock/cmake-build-debug/vcpkg_installed/x64-linux/:176)
+@asio|1688107293.709204|20*21|socket@0x55ddb122e5b8.async_receive
+@asio|1688107293.709242|.21|non_blocking_recv,ec=system:11,bytes_transferred=0
+@asio|1688107293.709257|<20|
+@asio|1688107293.822516|.21|non_blocking_recv,ec=asio.misc:2,bytes_transferred=0
+@asio|1688107293.822537|>21|ec=asio.misc:2,bytes_transferred=0
+@asio|1688107293.822585|<21|
+@asio|1688107293.822657|0|socket@0x55ddb122e5b8.close
+@asio|1688107293.822678|0|resolver@0x7fffb42679d8.cancel
+
